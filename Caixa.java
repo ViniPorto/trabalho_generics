@@ -3,10 +3,6 @@ public class Caixa<T>{
     private T objT;
     private boolean caixaCheia = false; 
 
-    public T getObjT() {
-        return objT;
-    }
-
     public void colocaObjetoNaCaixa(T objT){
         if(caixaCheia){
             System.out.println("Retire o objeto da caixa antes de adicionar outro!");
